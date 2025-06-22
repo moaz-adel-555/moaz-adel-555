@@ -1,0 +1,298 @@
+*{
+font-family: 'Ubuntu', sans-serif;
+margin:0;
+padding:0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+header{
+    background: #ffffff;
+    border-bottom: 0.7px solid #3b3b3b;
+    
+    width:100%;
+    position:fixed;
+    z-index: 999;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+  
+}
+.logo{
+    color: #0077ff;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    
+    
+    
+}
+.nav a{
+  color:#5736ff;
+  text-decoration:none;
+  font-size: 1.1em;
+  font-weight:500;
+  padding-left: 30px;
+
+
+}
+.nav a:hover{
+    color:#0c00e8;
+    
+}
+section{
+    padding:100px 200px;
+}
+.main{
+    width:100%;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+background:url(logo.webp);
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+    
+    
+}
+.main h2{
+    color:white; 
+    font-size: 1.4em;
+    font-weight: 500;
+    
+    
+}
+.main h2 span{
+    color:#001cba;
+    font-size:3em;
+    font-weight:600;
+    display:inline-block;
+    margin-top:10px;
+}
+.main h3{
+    color:white;
+    font-size:2em;
+    font-weight: 700px;
+    letter-spacing:1px;
+    margin-top:10px;
+    margin-bottom:30px;
+    
+    
+}
+
+.main-btn{
+    color:white;
+    text-decoration:none;
+    font-size:1.1em;
+    background-color:#5736ff;
+    font-weight:600;
+    display:inline-block;
+    padding:0.9375em 2.1875em;
+    letter-spacing:1px;
+    border-radius:15px;
+    margin-bottom:40px;
+    transition: 0.7s ease;
+    
+}
+.main-btn:hover{
+    background:#0c00e8;
+    transform: scale(1.1)
+}
+.social-icons a{
+    color:white;
+    font-size:1.7em;
+    padding-right:25px;
+}
+.logo i{
+    margin:10px;
+}
+.title{
+    display:flex;
+    justify-content:center;
+    color:#5736ff;
+    font-size:2.2em;
+    font-weight:800;
+    margin-bottom:30px;
+    
+    
+}
+.content{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    
+    
+    
+    
+}
+.card{
+    background:#ffffff;
+    width:21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+  border-radius:10px;  
+    padding:25px;
+    margin:15px;
+    transition: 0.7s ease;
+    
+    
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color:#5736ff;
+    font-size:8em;
+    text-align: center;
+
+ 
+    
+
+
+
+
+
+    
+}
+.info h3{
+    color:#5736ff;
+    font-size:1.2em;
+    font-weight:700;
+    margin:10px;
+    text-align: center;
+    
+    
+    
+}
+.info p{
+    text-align: center;
+}
+.link{
+    text-decoration:none;
+}
+.projects{
+    background:#123;
+    color:#5736ff;
+    text-align:center;
+}
+.projects p{
+    font-size:1.2em;
+    font-weight:700;
+    margin-top:10px;
+}
+.projects h2{
+    font-weight:900;
+    font-size:2.2em;
+    
+}
+.contact .icon{
+    font-size:4.5em;
+    
+
+    
+    
+    
+}
+
+
+
+
+
+.contact .info h3,p{
+    color:#5736ff;
+    
+}
+.footer{
+      background:#123;
+    color:white;
+    padding:1.3em;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+.footer-title{
+    font-size:1.3em;
+    font-weight:600;
+}
+.footer-title span{
+    color:#5736ff;
+}
+
+
+
+@media(max-width:1023px){
+    header{
+        padding:11px 20px;
+    }
+    
+    .title{
+        font-size:1.8em;
+        
+    }
+    
+section{
+    padding:80px 20px;
+}
+
+
+.main-content h2{
+    font-size:1em;
+    
+    
+    
+}
+
+.main-content h3{
+    font-size:1.6em;
+}
+.content{
+    flex-direction:column;
+    align-items:center;
+}
+    .nav a{
+        padding:5px;
+        font-size:1.3em;
+        
+    }
+  .logo{
+      font-size:1em;
+  }
+
+    
+    
+}
+@media(max-width:641px){
+
+body{
+    font-size:12em;
+    
+}
+    .main-content h2{
+       font-size:0.8em; 
+    }
+
+
+    .main-content h3{
+       font-size:0.4em; 
+    }
+    .card{
+        width:100%;
+    }
+    
+
+}
+@media(max-width:480px){
+    body{
+        font-size:10px;
+    }
+}
+
+   
+
+
+
+
